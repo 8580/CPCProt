@@ -21,7 +21,8 @@ setuptools.setup(
         "torch>=1.0,<2.0",
         "lmdb>=1.0,<2.0",
         # "tape-proteins>=0.4,<=1.0",
-        "tape-proteins @ git+https://github.com/konstin/tape@patch-1",
+        #"tape-proteins @ git+https://github.com/konstin/tape@patch-1",
+        "tape-proteins",
         "scipy>=1.5,<2.0",
     ],
 )
