@@ -1,3 +1,12 @@
+# DEPRECATION NOTICE
+This project is no longer maintained and the pretrained weights hosted on the server have been removed. Please use the [bio_embeddings](https://github.com/sacdallago/bio_embeddings) library instead:
+
+```
+pip install bio-embeddings[cpcprot]
+```
+
+See the [`bio_embeddings.embed`](https://docs.bioembeddings.com/v0.2.3/api/bio_embeddings.embed.html) documentation for details.
+
 # CPCProt
 Parameter-efficient embeddings for proteins, pretrained using a contrastive loss to maximize mutual information between local and sequentially global embeddings.
 
@@ -15,7 +24,10 @@ Parameter-efficient embeddings for proteins, pretrained using a contrastive loss
     
 ## Pretrained Model Weights
 
-Pretrained model weights are hosted [here](http://hershey.csb.utoronto.ca/CPCProt/weights/).
+~~Pretrained model weights are hosted [here](http://hershey.csb.utoronto.ca/CPCProt/weights/).~~  This server is no longer maintained. 
+
+It looks like the pretrined model weights can now be found at (Bioembeddings)[http://data.bioembeddings.com/public/embeddings/embedding_models/cpcprot/best.ckpt]
+No idea where the CPCProt_LSTM__pretrained and CPCProt_LSTM__pretrained versions are...
 
 To download weights for the default (i.e. most parameter-efficient) version of the CPCProt model:
 
