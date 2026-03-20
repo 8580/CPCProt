@@ -41,6 +41,8 @@ To download the CPCProt_<sub>LSTM</sub> and CPCProt_<sub>GRU_Large</sub> model v
 ### Installation
 
 ```bash
+conda create --name cpcprot python=3.10
+conda activate cpcprot
 git clone https://github.com/amyxlu/CPCProt.git
 cd CPCProt
 pip install -e .
